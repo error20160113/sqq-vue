@@ -1,28 +1,31 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="app">
+    <div style="height:10%"></div>
+    <timer></timer>
+    <!-- <div style="width:100%; position:fixed; bottom:0;">
+      <span>*开始于20181023083000</span>
+    </div> -->
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Timer from './components/Timer.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    'timer':Timer
   }
 }
 </script>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+<style scoped>
+
+.app {
+    width: 100%;
+    height: 100%;
+    background: pink;
+    text-align: center;
+
 }
 </style>
