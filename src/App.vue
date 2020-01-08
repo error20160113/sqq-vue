@@ -3,7 +3,7 @@
     <div style="height:10%"></div>
     <timer></timer>
     <div style="width:100%; position:fixed; bottom:0;">
-      <span>开始于2018-10-23 08:30:00</span>
+      <!-- <span>开始于2018-10-23 08:30:00</span> -->
     </div>
   </div>
 </template>
