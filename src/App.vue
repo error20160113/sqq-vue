@@ -1,20 +1,18 @@
 <template>
   <div class="app">
-    <div style="height:10%"></div>
-    <timer></timer>
-    <div style="width:100%; position:fixed; bottom:0;">
-      <!-- <span>开始于2018-10-23 08:30:00</span> -->
-    </div>
+    <!-- <timer></timer>   -->
+    <pic></pic>
   </div>
 </template>
 
 <script>
-import Timer from './components/Timer.vue'
-
+// import Timer from './components/Timer.vue'
+import Pic from './components/Pic.vue'
 export default {
   name: 'app',
   components: {
-    'timer':Timer
+    // 'timer':Timer,
+    'pic':Pic,
   }
 }
 </script>
@@ -24,7 +22,7 @@ export default {
 .app {
     width: 100%;
     height: 100%;
-    background: pink;
+    /* background: pink; */
     text-align: center;
 
 }
